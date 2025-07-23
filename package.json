@@ -1,13 +1,11 @@
 {
   "name": "tablero-inventario",
-  "homepage": "https://augustoalr.github.io/tablero-inventario",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
